@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		713993541A9F6A9500F038C5 /* object.m in Sources */ = {isa = PBXBuildFile; fileRef = 713993531A9F6A9500F038C5 /* object.m */; };
 		713A0AE21A8799F700536F8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 713A0AE11A8799F700536F8B /* main.m */; };
+		713A0AEF1A87A57900536F8B /* Jastor.m in Sources */ = {isa = PBXBuildFile; fileRef = 713A0AEC1A87A57900536F8B /* Jastor.m */; };
+		713A0AF01A87A57900536F8B /* JastorRuntimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 713A0AEE1A87A57900536F8B /* JastorRuntimeHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		713993531A9F6A9500F038C5 /* object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = object.m; sourceTree = "<group>"; };
 		713A0ADE1A8799F700536F8B /* JsonToObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JsonToObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
 		713A0AE11A8799F700536F8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		713A0AE81A879A2200536F8B /* object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = object.h; sourceTree = "<group>"; };
+		713A0AEB1A87A57900536F8B /* Jastor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Jastor.h; path = JsonToObjectiveC/Jastor.h; sourceTree = "<group>"; };
+		713A0AEC1A87A57900536F8B /* Jastor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Jastor.m; path = JsonToObjectiveC/Jastor.m; sourceTree = "<group>"; };
+		713A0AED1A87A57900536F8B /* JastorRuntimeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JastorRuntimeHelper.h; path = JsonToObjectiveC/JastorRuntimeHelper.h; sourceTree = "<group>"; };
+		713A0AEE1A87A57900536F8B /* JastorRuntimeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JastorRuntimeHelper.m; path = JsonToObjectiveC/JastorRuntimeHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +50,10 @@
 		713A0AD51A8799F700536F8B = {
 			isa = PBXGroup;
 			children = (
+				713A0AEB1A87A57900536F8B /* Jastor.h */,
+				713A0AEC1A87A57900536F8B /* Jastor.m */,
+				713A0AED1A87A57900536F8B /* JastorRuntimeHelper.h */,
+				713A0AEE1A87A57900536F8B /* JastorRuntimeHelper.m */,
 				713A0AE01A8799F700536F8B /* JsonToObjectiveC */,
 				713A0ADF1A8799F700536F8B /* Products */,
 			);
@@ -58,6 +71,8 @@
 			isa = PBXGroup;
 			children = (
 				713A0AE11A8799F700536F8B /* main.m */,
+				713A0AE81A879A2200536F8B /* object.h */,
+				713993531A9F6A9500F038C5 /* object.m */,
 			);
 			path = JsonToObjectiveC;
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				713A0AE21A8799F700536F8B /* main.m in Sources */,
+				713993541A9F6A9500F038C5 /* object.m in Sources */,
+				713A0AEF1A87A57900536F8B /* Jastor.m in Sources */,
+				713A0AF01A87A57900536F8B /* JastorRuntimeHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +250,7 @@
 				713A0AE71A8799F700536F8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
